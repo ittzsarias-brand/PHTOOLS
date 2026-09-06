@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PH.Tools Construction Supply — professional tools, building materials, accessories, painting supplies and site equipment." />
+  <title>PH.Tools — Construction Supply</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>PROFESSIONAL TOOLS FOR REAL PROJECTS</span>
+      <span>Fast delivery • Trusted brands • Built for the job</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="PH.Tools home">
+        <span class="brand-mark">PH</span>
+        <span><strong>PH.Tools</strong><small>CONSTRUCTION SUPPLY</small></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#shop">Shop</a>
+        <a href="#categories">Categories</a>
+        <a href="#brands">Brands</a>
+        <a href="#why-us">Why PH.Tools</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn search-toggle" aria-label="Search products">⌕</button>
+        <button class="cart-btn" id="cartOpen" aria-label="Open shopping cart">
+          Cart <span id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+    <div class="searchbar" id="searchBar">
+      <div class="container">
+        <input id="searchInput" type="search" placeholder="Search drills, grinders, safety gear, materials..." autocomplete="off" />
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">BUILD • CREATE • IMPROVE</p>
+        <h1>Better tools.<br /><em>Brighter buildings.</em></h1>
+        <p class="hero-copy">Professional-grade construction supplies for contractors, tradespeople and serious DIY projects.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#shop">Shop tools <span>→</span></a>
+          <a class="btn btn-outline" href="#categories">Browse categories</a>
+        </div>
+        <div class="hero-trust">
+          <div><strong>500+</strong><span>Products</span></div>
+          <div><strong>20+</strong><span>Trusted brands</span></div>
+          <div><strong>24–48h</strong><span>Fast dispatch</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-strip" id="categories">
+      <div class="container">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">WHAT DO YOU NEED?</p>
+            <h2>Shop by category</h2>
+          </div>
+          <a href="#shop" class="text-link">View all products →</a>
+        </div>
+        <div class="category-grid">
+          <button class="category-card active" data-category="All">
+            <span class="cat-icon">⚒</span><strong>All tools</strong><small>Power & hand tools</small>
+          </button>
+          <button class="category-card" data-category="Power Tools">
+            <span class="cat-icon">◉</span><strong>Power tools</strong><small>Drills, grinders & saws</small>
+          </button>
+          <button class="category-card" data-category="Hand Tools">
+            <span class="cat-icon">⌁</span><strong>Hand tools</strong><small>Built for daily work</small>
+          </button>
+          <button class="category-card" data-category="Safety">
+            <span class="cat-icon">♢</span><strong>Safety</strong><small>PPE & site protection</small>
+          </button>
+          <button class="category-card" data-category="Site Equipment">
+            <span class="cat-icon">▣</span><strong>Site equipment</strong><small>Ready for the jobsite</small>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop section" id="shop">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE JOB STARTS HERE</p>
+            <h2>Featured products</h2>
+          </div>
+          <div class="filters">
+            <select id="sortSelect" aria-label="Sort products">
+              <option value="featured">Featured</option>
+              <option value="low">Price: low to high</option>
+              <option value="high">Price: high to low</option>
+            </select>
+          </div>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+        <p class="empty-state" id="emptyState">No products match your search.</p>
+      </div>
+    </section>
+
+    <section class="brands section" id="brands">
+      <div class="container">
+        <p class="eyebrow centered">TRUSTED BRANDS</p>
+        <h2 class="centered">Brands made for hard work</h2>
+        <div class="brand-row">
+          <span>DEWALT</span><span>KNAUF</span><span>VELLOO</span><span>Ronix</span><span>Milwaukee</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="why section" id="why-us">
+      <div class="container why-grid">
+        <div>
+          <p class="eyebrow">WHY PH.TOOLS</p>
+          <h2>Everything your project needs. Nothing it doesn't.</h2>
+          <p class="muted">From the first measurement to the final fix, PH.Tools keeps your crew supplied with dependable equipment and practical jobsite essentials.</p>
+          <a class="btn btn-primary" href="#shop">Explore the store <span>→</span></a>
+        </div>
+        <div class="benefit-list">
+          <article><b>01</b><div><h3>Quality tools</h3><p>Reliable equipment selected for demanding construction work.</p></div></article>
+          <article><b>02</b><div><h3>Trusted brands</h3><p>Professional names across power tools, materials and site gear.</p></div></article>
+          <article><b>03</b><div><h3>Fast delivery</h3><p>Get your essentials moving quickly so the job keeps moving too.</p></div></article>
+          <article><b>04</b><div><h3>For professionals & DIY</h3><p>Practical options for contractors, trades and home projects.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div><p class="eyebrow">READY FOR THE NEXT PROJECT?</p><h2>Good tools. Great results.</h2></div>
+        <a class="btn btn-light" href="#shop">Start shopping →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home"><span class="brand-mark">PH</span><span><strong>PH.Tools</strong><small>CONSTRUCTION SUPPLY</small></span></a>
+        <p>Professional construction tools, materials and site equipment.</p>
+      </div>
+      <div><h4>Shop</h4><a href="#shop">Power tools</a><a href="#shop">Hand tools</a><a href="#shop">Safety</a><a href="#shop">Site equipment</a></div>
+      <div><h4>Support</h4><a href="#">Delivery</a><a href="#">Returns</a><a href="#">Contact</a><a href="#">Trade accounts</a></div>
+      <div><h4>Contact</h4><p>Mon–Sat: 8:00–18:00</p><p>sales@phtools.example</p><p>+000 000 0000</p></div>
+    </div>
+    <div class="container copyright">© 2026 PH.Tools Construction Supply. Demo storefront — replace contact, pricing and checkout details with your business information.</div>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
+    <div class="cart-head"><h2>Your cart</h2><button id="cartClose" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty">Your cart is empty.<br /><span>Add construction essentials to get started.</span></div>
+    <div class="cart-foot">
+      <div><span>Subtotal</span><strong id="cartTotal">$0.00</strong></div>
+      <button class="btn btn-primary checkout-btn" id="checkoutBtn">Proceed to checkout</button>
+      <small>Checkout is a demo. Connect your payment provider before going live.</small>
+    </div>
+  </aside>
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
