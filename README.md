@@ -1,24 +1,22 @@
-# PH.Tools Construction Supply — Storefront
+# PH.Tools — وەشانی ٨٠٪ پێشکەوتوو
 
-A responsive construction-supply storefront based on the supplied PH.Tools wallpaper.
+ئەم وەشانە دیزاینی سەرەکیی کۆگای PH.Tools ـە و بۆ زمانی کوردیی سۆرانی (RTL) گونجاو کراوە.
 
-## Included
-- `index.html` — complete storefront
-- `styles.css` — responsive visual design
-- `script.js` — product filtering, search, sorting and cart
-- `assets/ph-tools-wallpaper.jpeg` — the supplied wallpaper
+## گۆڕانکارییە سەرەکییەکان
+- زمانی هەموو UI ـەکە کراوەتە سۆرانی.
+- `dir="rtl"` بۆ ڕێکخستنی ڕاست بۆ چەپ.
+- فۆنتی `Rabar_037.ttf` ـی بەکارهێنەر بەکار هاتووە.
+- وێنەی wallpaper ـی پێشوو لە hero بەکارهاتووە.
+- کۆگای بەرهەم، گەڕان، filter، sort و cart کار دەکەن.
+- responsive بۆ مۆبایل، tablet و desktop.
+- بنەمای ٨٠٪ ماڵپەڕەکە ئامادەیە.
 
-## Run
-Open `index.html` in a browser.
-
-For development, you can also use any local static server (for example VS Code Live Server).
-
-## Before going live
-1. Replace demo prices/products in `script.js`.
-2. Replace the placeholder contact details in `index.html`.
-3. Connect a real backend/database for inventory and orders.
-4. Connect a payment provider to the checkout button.
-5. Add real product photos in `assets/` if desired.
-6. Replace the example email/domain and configure your business policies.
-
-The site intentionally does not claim to be an authorized reseller for the brands shown in the supplied artwork.
+## ئەوەی بۆ ١٠٠٪ پێویستە
+1. وێنەی ڕاستەقینەی هەر بەرهەم.
+2. database و inventory.
+3. login/register و هەژماری کڕیار.
+4. checkout و payment gateway.
+5. delivery zones و نرخەکانی گەیاندن.
+6. dashboard بۆ بەڕێوەبردنی بەرهەم و داواکارییەکان.
+7. backend/API و security.
+8. SEO و domain/hosting.
